@@ -101,7 +101,7 @@ body:
     attributes:
       label: Roles
       description: Who have this role assigned
-      placeholder: |
+      value: |
         Autore: 
         @
         Revisore:
