@@ -107,12 +107,12 @@ body:
       label: Author
       description: Select document author
       options:
-        - "@genos36"
-        - "@genos36" 
-        - "@genos36"
-        - "@genos36"
-        - "@genos36""
-        - "@genos36"
+        - "@team-member-1"
+        - "@team-member-2" 
+        - "@team-member-3"
+        - "@team-member-4"
+        - "@team-member-5"
+        - "@team-member-6"
     validations:
       required: true
       
