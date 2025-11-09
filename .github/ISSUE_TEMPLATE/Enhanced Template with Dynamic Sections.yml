@@ -96,18 +96,57 @@ body:
         Special Requirements:
 
         
-  - type: textarea
-    id: roles
+name: Document with Role Assignment
+description: Create document with role-based assignments
+title: "[DOC] "
+labels: ["documentation"]
+body:
+  - type: dropdown
+    id: author
     attributes:
-      label: Roles
-      description: Who have this role assigned
-      value: |
-        Autore: 
-        @
-        Revisore:
-        @
-        Validatore:
-        @
+      label: Author
+      description: Select document author
+      options:
+        - "@team-member-1"
+        - "@team-member-2" 
+        - "@team-member-3"
+        - "@team-member-4"
+        - "@team-member-5"
+        - "@team-member-6"
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: reviewer
+    attributes:
+      label: Reviewer
+      description: Select document reviewer
+      options:
+        - "@team-member-1"
+        - "@team-member-2"
+        - "@team-member-3" 
+        - "@team-member-4"
+        - "@team-member-5"
+        - "@team-member-6"
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: validator
+    attributes:
+      label: Validator
+      description: Select document validator
+      options:
+        - "@team-member-1"
+        - "@team-member-2"
+        - "@team-member-3"
+        - "@team-member-4"
+        - "@team-member-5"
+        - "@team-member-6"
+    validations:
+      required: true
+
+        
   - type: checkboxes
     id: initial_requirements
     attributes:
