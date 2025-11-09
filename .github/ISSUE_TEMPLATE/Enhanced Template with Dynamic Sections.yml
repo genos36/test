@@ -123,11 +123,11 @@ body:
       description: Select document reviewer
       options:
         - "@genos36"
-        - "@genos36" 
-        - "@genos36"
-        - "@genos36"
-        - "@genos36""
-        - "@genos36"
+        - "@genos36hget" 
+        - "@genos36ethge"
+        - "@genos36eg"
+        - "@genos36ge"
+        - "@genos36rger"
     validations:
       required: true
       
@@ -138,11 +138,11 @@ body:
       description: Select document validator
       options:
         - "@genos36"
-        - "@genos36" 
-        - "@genos36"
-        - "@genos36"
-        - "@genos36""
-        - "@genos36"
+        - "@genos36gre" 
+        - "@genos36gegtt"
+        - "@genos36trhde"
+        - "@genos36eg"
+        - "@genos36egerrg"
     validations:
       required: true
 
