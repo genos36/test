@@ -1,9 +1,69 @@
-name: Document Workflowdsvssdvs
+name: Document Workflow
 description: Structured document creation process
 title: "[DOC] "
 labels: ["documentation"]
 assignees: []
 body:
+
+
+
+
+  - type: list
+    id: author
+    attributes:
+      label: Author
+      description: Select document author
+      multiple: true
+      options:
+        - "@team-member-1"
+        - "@team-member-2" 
+        - "@team-member-3"
+        - "@team-member-4"
+        - "@team-member-5"
+        - "@team-member-6"
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: reviewer
+    attributes:
+      label: Reviewer
+      description: Select document reviewer
+      multiple: true
+      options:
+        - "@team-member-1"
+        - "@team-member-2"
+        - "@team-member-3" 
+        - "@team-member-4"
+        - "@team-member-5"
+        - "@team-member-6"
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: validator
+    attributes:
+      label: Validator
+      description: Select document validator
+      multiple: true
+      options:
+        - "@team-member-1"
+        - "@team-member-2"
+        - "@team-member-3"
+        - "@team-member-4"
+        - "@team-member-5"
+        - "@team-member-6"
+    validations:
+      required: true
+
+
+
+
+
+
+
+
+
   - type: dropdown
     id: document_type
     attributes:
@@ -95,58 +155,6 @@ body:
         Success Criteria:
         Special Requirements:
 
-        
-name: Document with Role Assignment
-description: Create document with role-based assignments
-title: "[DOC] "
-labels: ["documentation"]
-body:
-  - type: dropdown
-    id: author
-    attributes:
-      label: Author
-      description: Select document author
-      options:
-        - "@team-member-1"
-        - "@team-member-2" 
-        - "@team-member-3"
-        - "@team-member-4"
-        - "@team-member-5"
-        - "@team-member-6"
-    validations:
-      required: true
-      
-  - type: dropdown
-    id: reviewer
-    attributes:
-      label: Reviewer
-      description: Select document reviewer
-      options:
-        - "@genos36"
-        - "@genos36hget" 
-        - "@genos36ethge"
-        - "@genos36eg"
-        - "@genos36ge"
-        - "@genos36rger"
-    validations:
-      required: true
-      
-  - type: dropdown
-    id: validator
-    attributes:
-      label: Validator
-      description: Select document validator
-      options:
-        - "@genos36"
-        - "@genos36gre" 
-        - "@genos36gegtt"
-        - "@genos36trhde"
-        - "@genos36eg"
-        - "@genos36egerrg"
-    validations:
-      required: true
-
-        
   - type: checkboxes
     id: initial_requirements
     attributes:
