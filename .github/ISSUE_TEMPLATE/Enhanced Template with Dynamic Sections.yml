@@ -95,6 +95,19 @@ body:
         Success Criteria:
         Special Requirements:
 
+        
+  - type: textarea
+    id: roles
+    attributes:
+      label: Roles
+      description: Who have this role assigned
+      placeholder: |
+        Autore: 
+        @
+        Revisore:
+        @
+        Validatore:
+        @
   - type: checkboxes
     id: initial_requirements
     attributes:
